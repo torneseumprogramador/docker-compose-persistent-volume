@@ -11,6 +11,9 @@ services:
         source: mydata
         target: /app/wwwroot
 
+    # volumes: # define destino
+    #  - /home/wang/docker/xt/site/wwwroot:/app/wwwroot/:rw
+
 volumes:
   mydata:
   
